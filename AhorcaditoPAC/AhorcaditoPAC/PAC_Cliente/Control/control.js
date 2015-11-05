@@ -9,14 +9,13 @@ $(document).ready(function () {
         url: "../Abstraccion/palabras.json",
         dataType: "text",
         success: function (data) {
-          palabras = $.parseJSON(data);
+            palabras = $.parseJSON(data);
         }
     });
-    alert("antes de start");
+    alert();
     startGame(); 
     document.getElementById("btHelp").addEventListener("click", displayHelp, false);
     document.getElementById("btTry").addEventListener("click", checkInput, false);
-    alert("despues de listeners");
 });
 
 function startGame() {
