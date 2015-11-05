@@ -1,0 +1,13 @@
+﻿[
+
+  {"palabra": "microsoft", "ayuda" : "Empresa que surge y revoluciona las computadoras personales" },
+  { "palabra": "cordova", "ayuda" : "framework de desarrollo híbrido" },
+  { "palabra": "cloud", "ayuda" : "las empresas ahora optan por _______ computing" },
+  { "palabra": "visual studio", "ayuda" : "El mejor y más completo IDE" },
+  { "palabra": "xbox", "ayuda" : "Consola para divertirte solo o con amigos" },
+  { "palabra": "azure", "ayuda" : "Servicios empresariales en la nube que responde a todo" },
+  { "palabra": "office365", "ayuda" : "plicaciones para la oficina basadas en la nube" },
+  { "palabra": "minecraft", "ayuda" : "Juego basado en cubos que fomenta la creatividad" },
+  { "palabra": "unity", "ayuda" : "Potente plataforma para el desarrollo de juegos" },
+  { "palabra": "jquery", "ayuda" : "framework de javascript para manejar adecuadamente el uso de la DOM en diferentes navegadores" }
+  ]

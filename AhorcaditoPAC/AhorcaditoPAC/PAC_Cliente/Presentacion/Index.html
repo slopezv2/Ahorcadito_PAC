@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>AHorcadito_PAC</title>
+	<meta charset="utf-8" />
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="text-center">Ahorcadito</h1>
+    </div>
+    <div class="container-fluid">
+        <canvas id="myCanvas"  width="400" height="400">
+            Not Supported
+        </canvas>
+        <div class="row">
+            <br />
+            <div class="col-xs-6">
+                <input type="text" id="letter" maxlength="1" class="center-block" pattern="[A-Za-z0-9]{1}" size="10" placeholder="Letra" />
+            </div>
+            <div class="col-xs-6">
+                <button type="button" class="btn btn-lg center-block" id="btHelp">
+                    <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <br />
+        <button id="btTry" class="btn btn-success btn-block">Probar</button>
+    </div>
+    <script src="../../Scripts/jquery-2.1.4.min.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../Control/control.js"></script>
+</body>
+</html>
